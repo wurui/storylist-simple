@@ -1,9 +1,15 @@
 {
   "name": "storylist-simple",
   "apiDependencies": [
-  {
-    "name": "storylist"
-  }
-]
+	  {
+	    "name": "storylist",
+	    "LINK":[
+	    	{
+	    		"name":"detail",
+	    		"title":"查看详情"
+	    	}
+	    ]
+	  }
+	]
 }
 

@@ -5,7 +5,7 @@
             <nobr>
             	<xsl:for-each select="data/storylist/i">
             		<span class="item">
-            			<a href="">
+            			<a href="{LINK/detail}">
                             <span class="img-box" style="background-image:url({normalize-space(img)})"></span>
                             <br/>
                             <!--
