@@ -1,3 +1,39 @@
 .oxmod-storylist-simple{
 /* CSS */
+	>nobr{
+		display: inline-block;
+		overflow-x: auto;
+	}
+	.item{
+		width:30%;
+		display: inline-block;
+		font-size: 12px;
+		vertical-align: top;
+		padding:5px;
+	}
+	.img-box{
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: inline-block;
+		width:100%;
+		height: 0;
+		padding-bottom: 60%;
+
+	}
+	.type{
+		color:#999;
+		font-style: normal;
+	}
+	.title{
+		overflow : hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		white-space: normal;
+	}
+	a{
+		color:inherit;
+	}
  }

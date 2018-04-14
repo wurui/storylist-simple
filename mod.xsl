@@ -2,9 +2,22 @@
     <xsl:template match="/root" name="wurui.storylist-simple">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-storylist-simple" ox-mod="storylist-simple">
-            <h1>
-                This is mod storylist-simple;
-            </h1>
+            <nobr>
+            	<xsl:for-each select="data/storylist/i">
+            		<span class="item">
+            			<a href="">
+                            <span class="img-box" style="background-image:url({normalize-space(img)})"></span>
+                            <br/>
+                            <!--
+            				<em class="type"><xsl:value-of select="type"/></em>
+                        -->
+                            <span class="title">
+                                <xsl:value-of select="title"/>
+                            </span>
+            			</a>
+            		</span>
+            	</xsl:for-each>
+            </nobr>
         </div>
     </xsl:template>
 </xsl:stylesheet>
