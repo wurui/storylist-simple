@@ -1,0 +1,9 @@
+{
+  "name": "storylist-simple",
+  "apiDependencies": [
+  {
+    "name": "storylist"
+  }
+]
+}
+

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+<root>
+    <env>
+        <domain>local</domain>
+    </env>
+    <login>
+        <uid>git/wurui</uid>
+    </login>
+    <p>
+        <title>demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
+    <storylist ADAPTERID="25aae228c2ee66d63a3378725">
+        <i>
+            <_id>
+                5aae228c2ee66d63a3378723
+            </_id>
+            <img>
+                http://i.oxm1.cc/uploads/git/wurui/img/2a4n33qqgTjep9xuzcRpp82Aggg-1242.jpg
+            </img>
+            <type>
+                彤学互联网
+            </type>
+            <title>
+                HTML5的那些不为人知的小秘密！
+            </title>
+            <brief>
+            </brief>
+            <content>
+            </content>
+            <time>
+                1521361440000
+            </time>
+        </i>
+        <i>
+            <_id>
+                5aae228c2ee66d63a3378724
+            </_id>
+            <img>
+                http://i.oxm1.cc/uploads/git/wurui/img/2a4n2x1xoTjepa4js4Rpzg0Aw51-1317.jpg
+            </img>
+            <type>
+                商业故事
+            </type>
+            <title>
+                声罄：互联网创新技术让生活更美好…
+            </title>
+            <brief>
+            </brief>
+            <content>
+            </content>
+            <time>
+                1521361440000
+            </time>
+        </i>
+    </storylist>
+    </data>
+</root>
