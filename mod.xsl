@@ -3,7 +3,7 @@
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-storylist-simple" ox-mod="storylist-simple">
             <nobr>
-            	<xsl:for-each select="data/storylist/i">
+            	<xsl:for-each select="data/storylist/i[position() &lt; 4]">
             		<span class="item">
             			<a href="{LINK/detail}">
                             <span class="img-box" style="background-image:url({normalize-space(img)})"></span>
