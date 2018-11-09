@@ -2,7 +2,7 @@
   "name": "storylist-simple",
   "apiDependencies": [
 	  {
-	    "name": "storylist",
+	    "name": "info-news",
 	    "LINK":[
 	    	{
 	    		"name":"detail",

@@ -3,10 +3,10 @@
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-storylist-simple" ox-mod="storylist-simple">
             <nobr>
-            	<xsl:for-each select="data/storylist/i[position() &lt; 4]">
+            	<xsl:for-each select="data/info-news/i[position() &lt; 4]">
             		<span class="item">
             			<a href="{LINK/detail}">
-                            <span class="img-box" style="background-image:url({normalize-space(img)})"></span>
+                            <span class="img-box" style="background-image:url({media/i[type='image'][1]/src})"></span>
                             <br/>
                             <!--
             				<em class="type"><xsl:value-of select="type"/></em>
